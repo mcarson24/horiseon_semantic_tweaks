@@ -6,12 +6,15 @@
 
 body {
     background-color: #d9dcd6;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+/* Header styles */
 
 header {
     padding: 20px;
     background-color: #2a607c; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
 
@@ -24,11 +27,12 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Navigation styles */
+
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -40,6 +44,8 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Hyperlinks are white and have no underline */
 
 a {
     color: #ffffff;
@@ -53,6 +59,7 @@ p {
 /* Styles for the main hero image
  * Takes up width of screen and is 800px tall
  */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -62,32 +69,33 @@ p {
     background-position: center;
 }
 
-/* To shift or 'float' content to the left of
- * its container
- */
+/* To shift or 'float' content to the left side of its container */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* To shift or 'float' content to the right of
- * its container
- */
+/* To shift or 'float' content to the right side of its container */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Main section styles
+/* Main section styles:
  * Display is inline-block so the 
  * sidebar can follow this section
  * horizontally.
  */
+
 main{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Styles for the sections in the side bar */
 
 aside {
     margin-right: 20px;
@@ -95,11 +103,8 @@ aside {
     clear: both;
     float: right;
     width: 20%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* Styles for the sections in the side bar */
 
 aside section {
     margin-bottom: 32px;
@@ -123,7 +128,6 @@ main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -140,6 +144,7 @@ main section h2 {
 footer {
     padding: 30px;
     clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
