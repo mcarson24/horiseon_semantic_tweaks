@@ -50,6 +50,9 @@ p {
     font-size: 16px;
 }
 
+/* Styles for the main hero image
+ * Takes up width of screen and is 800px tall
+ */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +62,27 @@ p {
     background-position: center;
 }
 
+/* To shift or 'float' content to the left of
+ * its container
+ */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* To shift or 'float' content to the right of
+ * its container
+ */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Main section styles
+ * Display is inline-block so the 
+ * sidebar can follow this section
+ * horizontally.
+ */
 main{
     width: 75%;
     display: inline-block;
@@ -81,59 +95,29 @@ aside.benefits {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Styles for the sections in the side bar */
+
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefits section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Styles for the three sections inside of the main element. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
