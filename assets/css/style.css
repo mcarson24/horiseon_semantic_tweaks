@@ -6,12 +6,12 @@
 
 body {
     background-color: #d9dcd6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #2a607c; 
     color: #ffffff;
 }
 
@@ -89,7 +89,7 @@ main{
     margin-left: 20px;
 }
 
-aside.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -101,42 +101,25 @@ aside.benefits {
 
 /* Styles for the sections in the side bar */
 
-.benefits section {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits section h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits section img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Styles for the three sections inside of the main element. */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* Styles for sections inside of the main element. */
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -157,7 +140,6 @@ main section h2 {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
