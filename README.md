@@ -1,4 +1,4 @@
-# <horiseon-semantic-tweaks>
+# Horiseon Semantic Tweaks
 
 ## Description
 
